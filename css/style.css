@@ -1,0 +1,170 @@
+body {
+    font-family: "Open Sans";
+    font-size: 1.2em;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.nav-left-align{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-center-align{
+    margin: auto;
+    width: 33%;
+    justify-content: center;
+}
+
+.nav-right-align {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.a-nav {
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 178.5%;
+    text-decoration: none;
+}
+
+.a-nav-main {
+    color: #928656;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.first-block {
+    display: flex;
+    height: 600px;
+    background-color: #F8F8F8;
+}
+
+.first-block-left-side {
+    width: 50%;
+    height: 600px;    
+}
+
+.first-block-left-side-content {
+    width: auto;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+.new-collection {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 64px;
+}
+
+.button-discover {
+    height: 70px;
+    width: 300px;
+    background-color: #928656;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.first-block-right-side {
+    width: 50%;
+    background-color: #EFAC15;
+}
+
+.size-block {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    justify-content: center;
+
+}
+
+.sizes-available {
+    margin:0;
+    margin-top: 150px;
+    padding-bottom: 5px;
+    color:white;
+    font-size: 18px;
+}
+
+.sizes {
+    display: flex;
+    flex-direction: row;
+}
+
+.p-sizes {
+    width: 30px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin:0px;
+}
+
+.color-block {
+    display: flex;
+    flex-direction:column;
+    float:right;
+    align-self: flex-end;
+    margin-top: 350px;
+}
+
+.white-rectangle {
+    height: 30px;
+    width: 30px;
+    background-color:white;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.red-rectangle {
+    height: 30px;
+    width: 30px;
+    background-color:red;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.green-rectangle {
+    height: 30px;
+    width: 30px;
+    background-color:green;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.blue-rectangle {
+    height: 30px;
+    width: 30px;
+    background-color:blue;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+
+.item-info {
+    display: flex;
+}
